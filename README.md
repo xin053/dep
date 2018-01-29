@@ -5,6 +5,10 @@
   <a href="https://goreportcard.com/report/github.com/golang/dep"><img src="https://goreportcard.com/badge/github.com/golang/dep" /></a>
 </p>
 
+## 修改内容
+
+* 对 **golang.org** 和 **google.golang.org** 域名下的项目自动用 GitHub 的镜像项目进行替换，方便国内用户使用。
+
 ## Dep
 
 `dep` is a dependency management tool for Go. It requires Go 1.9 or newer to compile.
