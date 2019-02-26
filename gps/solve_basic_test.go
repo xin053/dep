@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"github.com/Masterminds/semver"
-	"github.com/golang/dep/gps/pkgtree"
+	"github.com/xin053/dep/gps/pkgtree"
 )
 
 var regfrom = regexp.MustCompile(`^(\w*) from (\w*) ([0-9\.\*]*)`)

@@ -9,7 +9,7 @@ import (
 	"sort"
 
 	"github.com/Masterminds/semver"
-	"github.com/golang/dep/gps/internal/pb"
+	"github.com/xin053/dep/gps/internal/pb"
 )
 
 var (

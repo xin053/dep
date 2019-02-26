@@ -13,8 +13,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/golang/dep/gps/pkgtree"
-	"github.com/golang/dep/internal/test"
+	"github.com/xin053/dep/gps/pkgtree"
+	"github.com/xin053/dep/internal/test"
 )
 
 // Executed in parallel by TestSlowVcs

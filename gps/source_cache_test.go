@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/dep/gps/pkgtree"
-	"github.com/golang/dep/internal/test"
+	"github.com/xin053/dep/gps/pkgtree"
+	"github.com/xin053/dep/internal/test"
 	"github.com/pkg/errors"
 )
 
@@ -232,7 +232,7 @@ func (test singleSourceCacheTest) run(t *testing.T) {
 						CommentPath: "comment",
 						Name:        "simple",
 						Imports: []string{
-							"github.com/golang/dep/gps",
+							"github.com/xin053/dep/gps",
 							"sort",
 						},
 					},
@@ -243,7 +243,7 @@ func (test singleSourceCacheTest) run(t *testing.T) {
 						CommentPath: "",
 						Name:        "m1p",
 						Imports: []string{
-							"github.com/golang/dep/gps",
+							"github.com/xin053/dep/gps",
 							"os",
 							"sort",
 						},

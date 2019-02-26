@@ -9,7 +9,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/golang/dep/internal/test"
+	"github.com/xin053/dep/internal/test"
 )
 
 func TestCascadingPruneOptions(t *testing.T) {
@@ -23,11 +23,11 @@ func TestCascadingPruneOptions(t *testing.T) {
 			co: CascadingPruneOptions{
 				DefaultOptions: PruneNestedVendorDirs,
 				PerProjectOptions: map[ProjectRoot]PruneOptionSet{
-					ProjectRoot("github.com/golang/dep"): {},
+					ProjectRoot("github.com/xin053/dep"): {},
 				},
 			},
 			results: map[ProjectRoot]PruneOptions{
-				ProjectRoot("github.com/golang/dep"): PruneNestedVendorDirs,
+				ProjectRoot("github.com/xin053/dep"): PruneNestedVendorDirs,
 			},
 		},
 		{
@@ -35,7 +35,7 @@ func TestCascadingPruneOptions(t *testing.T) {
 			co: CascadingPruneOptions{
 				DefaultOptions: PruneNestedVendorDirs,
 				PerProjectOptions: map[ProjectRoot]PruneOptionSet{
-					ProjectRoot("github.com/golang/dep"): {
+					ProjectRoot("github.com/xin053/dep"): {
 						NestedVendor:   2,
 						UnusedPackages: 1,
 						NonGoFiles:     1,
@@ -44,7 +44,7 @@ func TestCascadingPruneOptions(t *testing.T) {
 				},
 			},
 			results: map[ProjectRoot]PruneOptions{
-				ProjectRoot("github.com/golang/dep"): PruneUnusedPackages | PruneNonGoFiles | PruneGoTestFiles,
+				ProjectRoot("github.com/xin053/dep"): PruneUnusedPackages | PruneNonGoFiles | PruneGoTestFiles,
 			},
 		},
 		{
@@ -52,7 +52,7 @@ func TestCascadingPruneOptions(t *testing.T) {
 			co: CascadingPruneOptions{
 				DefaultOptions: PruneNestedVendorDirs,
 				PerProjectOptions: map[ProjectRoot]PruneOptionSet{
-					ProjectRoot("github.com/golang/dep"): {
+					ProjectRoot("github.com/xin053/dep"): {
 						NestedVendor:   1,
 						UnusedPackages: 2,
 						NonGoFiles:     2,
@@ -61,7 +61,7 @@ func TestCascadingPruneOptions(t *testing.T) {
 				},
 			},
 			results: map[ProjectRoot]PruneOptions{
-				ProjectRoot("github.com/golang/dep"): PruneNestedVendorDirs,
+				ProjectRoot("github.com/xin053/dep"): PruneNestedVendorDirs,
 			},
 		},
 		{
@@ -69,7 +69,7 @@ func TestCascadingPruneOptions(t *testing.T) {
 			co: CascadingPruneOptions{
 				DefaultOptions: PruneNestedVendorDirs,
 				PerProjectOptions: map[ProjectRoot]PruneOptionSet{
-					ProjectRoot("github.com/golang/dep"): {
+					ProjectRoot("github.com/xin053/dep"): {
 						NestedVendor:   1,
 						UnusedPackages: 2,
 						NonGoFiles:     2,
@@ -84,7 +84,7 @@ func TestCascadingPruneOptions(t *testing.T) {
 				},
 			},
 			results: map[ProjectRoot]PruneOptions{
-				ProjectRoot("github.com/golang/dep"): PruneNestedVendorDirs,
+				ProjectRoot("github.com/xin053/dep"): PruneNestedVendorDirs,
 				ProjectRoot("github.com/other/one"):  PruneUnusedPackages | PruneNonGoFiles | PruneGoTestFiles,
 				ProjectRoot("not/there"):             PruneNestedVendorDirs,
 			},

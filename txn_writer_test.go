@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/dep/gps"
-	"github.com/golang/dep/internal/test"
+	"github.com/xin053/dep/gps"
+	"github.com/xin053/dep/internal/test"
 	"github.com/pkg/errors"
 )
 

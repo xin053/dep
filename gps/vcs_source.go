@@ -14,8 +14,8 @@ import (
 	"strings"
 
 	"github.com/Masterminds/semver"
-	"github.com/golang/dep/gps/pkgtree"
-	"github.com/golang/dep/internal/fs"
+	"github.com/xin053/dep/gps/pkgtree"
+	"github.com/xin053/dep/internal/fs"
 	"github.com/pkg/errors"
 )
 

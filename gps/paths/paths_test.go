@@ -7,7 +7,7 @@ package paths
 import (
 	"testing"
 
-	_ "github.com/golang/dep/internal/test" // DO NOT REMOVE, allows go test ./... -update to work
+	_ "github.com/xin053/dep/internal/test" // DO NOT REMOVE, allows go test ./... -update to work
 )
 
 func TestIsStandardImportPath(t *testing.T) {

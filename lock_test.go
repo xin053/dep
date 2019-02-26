@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/dep/gps"
-	"github.com/golang/dep/gps/verify"
-	"github.com/golang/dep/internal/test"
+	"github.com/xin053/dep/gps"
+	"github.com/xin053/dep/gps/verify"
+	"github.com/xin053/dep/internal/test"
 )
 
 func TestReadLock(t *testing.T) {
@@ -31,7 +31,7 @@ func TestReadLock(t *testing.T) {
 		P: []gps.LockedProject{
 			verify.VerifiableProject{
 				LockedProject: gps.NewLockedProject(
-					gps.ProjectIdentifier{ProjectRoot: gps.ProjectRoot("github.com/golang/dep")},
+					gps.ProjectIdentifier{ProjectRoot: gps.ProjectRoot("github.com/xin053/dep")},
 					gps.NewBranch("master").Pair(gps.Revision("d05d5aca9f895d19e9265839bffeadd74a2d2ecb")),
 					[]string{"."},
 				),
@@ -61,7 +61,7 @@ func TestReadLock(t *testing.T) {
 		P: []gps.LockedProject{
 			verify.VerifiableProject{
 				LockedProject: gps.NewLockedProject(
-					gps.ProjectIdentifier{ProjectRoot: gps.ProjectRoot("github.com/golang/dep")},
+					gps.ProjectIdentifier{ProjectRoot: gps.ProjectRoot("github.com/xin053/dep")},
 					gps.NewVersion("0.12.2").Pair(gps.Revision("d05d5aca9f895d19e9265839bffeadd74a2d2ecb")),
 					[]string{"."},
 				),
@@ -89,7 +89,7 @@ func TestWriteLock(t *testing.T) {
 		P: []gps.LockedProject{
 			verify.VerifiableProject{
 				LockedProject: gps.NewLockedProject(
-					gps.ProjectIdentifier{ProjectRoot: gps.ProjectRoot("github.com/golang/dep")},
+					gps.ProjectIdentifier{ProjectRoot: gps.ProjectRoot("github.com/xin053/dep")},
 					gps.NewBranch("master").Pair(gps.Revision("d05d5aca9f895d19e9265839bffeadd74a2d2ecb")),
 					[]string{"."},
 				),
@@ -123,7 +123,7 @@ func TestWriteLock(t *testing.T) {
 		P: []gps.LockedProject{
 			verify.VerifiableProject{
 				LockedProject: gps.NewLockedProject(
-					gps.ProjectIdentifier{ProjectRoot: gps.ProjectRoot("github.com/golang/dep")},
+					gps.ProjectIdentifier{ProjectRoot: gps.ProjectRoot("github.com/xin053/dep")},
 					gps.NewVersion("0.12.2").Pair(gps.Revision("d05d5aca9f895d19e9265839bffeadd74a2d2ecb")),
 					[]string{"."},
 				),

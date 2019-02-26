@@ -12,9 +12,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/golang/dep"
-	"github.com/golang/dep/gps"
-	"github.com/golang/dep/internal/fs"
+	"github.com/xin053/dep"
+	"github.com/xin053/dep/gps"
+	"github.com/xin053/dep/internal/fs"
 	"github.com/pkg/errors"
 )
 

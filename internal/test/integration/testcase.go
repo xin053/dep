@@ -13,7 +13,7 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/golang/dep/internal/test"
+	"github.com/xin053/dep/internal/test"
 )
 
 // TestCase manages a test case directory structure and content

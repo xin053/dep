@@ -18,7 +18,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/golang/dep/internal/test"
+	"github.com/xin053/dep/internal/test"
 )
 
 // Parent test that executes all the slow vcs interaction tests in parallel.

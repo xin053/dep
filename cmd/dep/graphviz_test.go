@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/golang/dep/internal/test"
+	"github.com/xin053/dep/internal/test"
 )
 
 func TestEmptyProject(t *testing.T) {

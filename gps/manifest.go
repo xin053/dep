@@ -4,7 +4,7 @@
 
 package gps
 
-import "github.com/golang/dep/gps/pkgtree"
+import "github.com/xin053/dep/gps/pkgtree"
 
 // Manifest represents manifest-type data for a project at a particular version.
 // The constraints expressed in a manifest determine the set of versions that

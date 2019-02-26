@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/dep/gps/pkgtree"
-	"github.com/golang/dep/internal/test"
+	"github.com/xin053/dep/gps/pkgtree"
+	"github.com/xin053/dep/internal/test"
 )
 
 func TestBoltCacheTimeout(t *testing.T) {
@@ -81,7 +81,7 @@ func TestBoltCacheTimeout(t *testing.T) {
 					CommentPath: "comment",
 					Name:        "simple",
 					Imports: []string{
-						"github.com/golang/dep/gps",
+						"github.com/xin053/dep/gps",
 						"sort",
 					},
 				},
@@ -92,7 +92,7 @@ func TestBoltCacheTimeout(t *testing.T) {
 					CommentPath: "",
 					Name:        "m1p",
 					Imports: []string{
-						"github.com/golang/dep/gps",
+						"github.com/xin053/dep/gps",
 						"os",
 						"sort",
 					},
@@ -250,7 +250,7 @@ func TestBoltCacheTimeout(t *testing.T) {
 					CommentPath: "newcomment",
 					Name:        "simple",
 					Imports: []string{
-						"github.com/golang/dep/gps42",
+						"github.com/xin053/dep/gps42",
 						"test",
 					},
 				},

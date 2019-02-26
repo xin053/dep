@@ -12,7 +12,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/golang/dep/internal/fs"
+	"github.com/xin053/dep/internal/fs"
 	"github.com/pkg/errors"
 )
 

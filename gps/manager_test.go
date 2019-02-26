@@ -21,7 +21,7 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/golang/dep/internal/test"
+	"github.com/xin053/dep/internal/test"
 )
 
 // An analyzer that passes nothing back, but doesn't error. This is the naive

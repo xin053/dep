@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/golang/dep/gps/internal/pb"
+	"github.com/xin053/dep/gps/internal/pb"
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 )

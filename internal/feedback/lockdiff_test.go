@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/golang/dep/gps"
+	"github.com/xin053/dep/gps"
 )
 
 // mkPI creates a ProjectIdentifier with the ProjectRoot as the provided
@@ -58,8 +58,8 @@ func TestStringDiff_Modify(t *testing.T) {
 }
 
 func TestDiffProjects_NoChange(t *testing.T) {
-	p1 := gps.NewLockedProject(mkPI("github.com/golang/dep/gps"), gps.NewVersion("v0.10.0"), []string{"gps"})
-	p2 := gps.NewLockedProject(mkPI("github.com/golang/dep/gps"), gps.NewVersion("v0.10.0"), []string{"gps"})
+	p1 := gps.NewLockedProject(mkPI("github.com/xin053/dep/gps"), gps.NewVersion("v0.10.0"), []string{"gps"})
+	p2 := gps.NewLockedProject(mkPI("github.com/xin053/dep/gps"), gps.NewVersion("v0.10.0"), []string{"gps"})
 
 	diff := DiffProjects(p1, p2)
 	if diff != nil {

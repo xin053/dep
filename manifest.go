@@ -13,8 +13,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/golang/dep/gps"
-	"github.com/golang/dep/gps/pkgtree"
+	"github.com/xin053/dep/gps"
+	"github.com/xin053/dep/gps/pkgtree"
 	"github.com/pelletier/go-toml"
 	"github.com/pkg/errors"
 )

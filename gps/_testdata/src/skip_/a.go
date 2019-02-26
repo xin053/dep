@@ -7,7 +7,7 @@ package skip
 import (
 	"sort"
 
-	"github.com/golang/dep/gps"
+	"github.com/xin053/dep/gps"
 )
 
 var (

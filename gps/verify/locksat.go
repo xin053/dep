@@ -6,9 +6,9 @@ package verify
 
 import (
 	radix "github.com/armon/go-radix"
-	"github.com/golang/dep/gps"
-	"github.com/golang/dep/gps/paths"
-	"github.com/golang/dep/gps/pkgtree"
+	"github.com/xin053/dep/gps"
+	"github.com/xin053/dep/gps/paths"
+	"github.com/xin053/dep/gps/pkgtree"
 )
 
 // LockSatisfaction holds the compound result of LockSatisfiesInputs, allowing
