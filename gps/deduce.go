@@ -720,8 +720,11 @@ func (dc *deductionCoordinator) deduceMirrorPaths(path string, uri *url.URL) (pd
 		"golang.org/x/text": "github.com/golang/text",
 		"golang.org/x/tools": "github.com/golang/tools",
 		// google.golang.org
+		"google.golang.org/api": "github.com/googleapis/google-api-go-client",
+		"google.golang.org/appengine": "github.com/golang/appengine",
 		"google.golang.org/grpc": "github.com/grpc/grpc-go",
 		"google.golang.org/genproto": "github.com/google/go-genproto",
+		"cloud.google.com/go": "github.com/googleapis/google-cloud-go",
 	}
 
 	for root, source := range mirrors {
