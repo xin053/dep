@@ -707,6 +707,7 @@ func (dc *deductionCoordinator) deduceMirrorPaths(path string, uri *url.URL) (pd
 	schemes := []string{"https", "http"}
 	mirrors := map[string]string {
 		// golang.org/x
+		"golang.org/x/oauth2": "github.com/golang/oauth2",
 		"golang.org/x/blog": "github.com/golang/blog",
 		"golang.org/x/crypto": "github.com/golang/crypto",
 		"golang.org/x/exp": "github.com/golang/exp",
