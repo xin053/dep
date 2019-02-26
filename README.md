@@ -23,30 +23,10 @@ For guides and reference materials about `dep`, see [the documentation](https://
 
 ## Installation
 
-It is strongly recommended that you use a released version. Release binaries are available on the [releases](https://github.com/golang/dep/releases) page.
-
-On MacOS you can install or upgrade to the latest released version with Homebrew:
-
-```sh
-$ brew install dep
-$ brew upgrade dep
-```
-
-On other platforms you can use the `install.sh` script:
-
-```sh
-$ curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
-```
-
-It will install into your `$GOPATH/bin` directory by default or any other directory you specify using the `INSTALL_DIRECTORY` environment variable.
-
-If your platform is not supported, you'll need to build it manually or let the team know and we'll consider adding your platform
-to the release builds.
-
 If you're interested in hacking on `dep`, you can install via `go get`:
 
 ```sh
-go get -u github.com/golang/dep/cmd/dep
+go get -u github.com/xin053/dep/cmd/dep
 ```
 
 ## Feedback

@@ -713,6 +713,7 @@ func (dc *deductionCoordinator) deduceMirrorPaths(path string, uri *url.URL) (pd
 		"golang.org/x/image": "github.com/golang/image",
 		"golang.org/x/mobile": "github.com/golang/mobile",
 		"golang.org/x/net": "github.com/golang/net",
+		"golang.org/x/sync": "github.com/golang/sync",
 		"golang.org/x/sys": "github.com/golang/sys",
 		"golang.org/x/talks": "github.com/golang/talks",
 		"golang.org/x/text": "github.com/golang/text",
